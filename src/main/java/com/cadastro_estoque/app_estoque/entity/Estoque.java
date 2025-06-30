@@ -22,7 +22,7 @@ public class Estoque {
     private Long id;
 
     private String descricao;
-    private int quantidade;
+    private int quantidadeTotal;
 
     private List<Produto> produtos = new ArrayList<>();
 
