@@ -18,8 +18,4 @@ public class Produto {
     private String nome;
     private Double preco;
 
-    @ManyToOne
-    @JoinColumn(name = "estoque_id")
-    private Estoque estoque;
-
 }

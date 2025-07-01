@@ -24,7 +24,6 @@ public class Estoque {
     private String descricao;
     private int quantidadeTotal;
 
-    private List<Produto> produtos = new ArrayList<>();
 
 }
 
